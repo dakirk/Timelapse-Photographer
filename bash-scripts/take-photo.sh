@@ -11,4 +11,4 @@ foldername=`date +"%Y_%m_%d-photos"`
 mkdir -p /home/pi/Timelapse-Photographer/timelapse-photos/$foldername
 
 # Take photo
-fswebcam -r 1280x1024 --no-banner "/home/pi/Timelapse-Photographer/timelapse-photos/$foldername/$filename" -S 2
+fswebcam -r 1280x1024 --no-banner "/home/pi/Timelapse-Photographer/timelapse-photos/$foldername/$filename" -S 10

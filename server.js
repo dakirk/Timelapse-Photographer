@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
 })
 
 app.get('/video', function(req, res) {
-  const path = 'timelapse-videos/2020_08_22-video.mp4'
+  const path = 'timelapse-videos/full-timelapse.mp4'
   const stat = fs.statSync(path)
   const fileSize = stat.size
   const range = req.headers.range
